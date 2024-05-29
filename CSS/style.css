@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    font-family: "Playfair Display", serif;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+
+#content{
+    background-color: #e7e7e7;
+    height: 100%;
+    .mainText{
+        font-size: 50px;
+        letter-spacing: 9px;
+        font-weight: 200;
+    }
+    .small-text{
+        font-size: 20px;
+        background: -webkit-linear-gradient(#cb4aff, #194f49);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .borderd-section{
+        border-top: 5px dashed white;
+        border-bottom: 5px dashed white;
+    }
+    .submit-btn{
+        background-color: black;
+        min-width: 100px;
+        width: 10%;
+    }
+    .submit-btn:hover{
+        background-color: white;
+        color:black !important;
+        transition: all 0.4s;
+        border: 1px solid black;
+    }
+    .btn-visit{
+        background-color: #2c7b3e;
+        color: white;
+        width: fit-content;
+    }
+    .btn-visit:hover{
+        transition: all 0.4s;
+        background-color: #0b3515;
+        
+    }
+    .delete{
+        width: fit-content;
+    }
+    .delete:hover{
+        transition: all 0.4s;
+        background-color: red;
+    }
+}
